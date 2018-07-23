@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import Home from "./site/home";
 
-
-import Header from './components/Header'
-import Body from './components/Body'
-import Footer from './components/Footer'
+import "./common/css/style.default.css";
+import "./common/css/custom.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <Body />
-        <Footer />
+        <Home />
       </div>
     );
   }
